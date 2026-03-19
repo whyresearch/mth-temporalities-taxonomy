@@ -2,18 +2,21 @@
 
 A taxonomy for describing and categorizing design research that engages with more-than-human temporalities. Developed through a systematic mapping of design interventions exploring nonhuman temporalities across HCI and design research.
 
-**[→ Interactive Paper Explorer](https://TODO.github.io/MtHTemporalityTaxonomy/)** · **[→ Taxonomy](taxonomy.md)**
+**[→ Interactive Paper Explorer](https://TODO.github.io/MtHTemporalityTaxonomy/)** · **[→ Taxonomy](taxonomy.md)** · **[→ Annotated Papers](papers.md)**
 
 ---
 
-## Summary
+## Abstract
 
-This repository accompanies the paper *Making Time for the More-than-Human: Mapping the Landscape of Design Interventions Exploring Nonhuman Temporalities*, presented at the Design Research Society (DRS) 2026 Conference. It provides:
+As a broader concept, temporality has been a consistent area of interest within design research. Recently, a strong focus on multispecies temporalities has emerged, reflecting the posthuman shift across both fields. To understand how design research engages with nonhuman temporalities in practice, we conducted a taxonomic mapping of literature focusing on works involving More-than-Human through designed interventions. This was combined with a comparative analysis using grounded theory methodology to examine which approaches and aspects of temporalities can be emphasised to enrich plural perspectives. We present an analysis and visual mapping of a final corpus of 17 projects from the past ten years. While our analysis demonstrates a pre-eminent focus on the present rather than on past or future temporalities, we also find value in in-situ engagements that explore broader notions of More-than-Human time. Our analysis also highlights characteristics, gaps, and opportunities in engaging with time from multiple nonhuman perspectives.
+
+## Repository Contents
+
+This repository accompanies the paper and provides:
 
 - **The MtHTT taxonomy** — a reusable framework of 5 categories and 15 dimensions for characterizing how design research engages with more-than-human temporalities ([`taxonomy.md`](taxonomy.md))
+- **Annotated paper corpus** — the 17 projects in the final corpus, coded against the taxonomy ([`papers.md`](papers.md)) and as raw data ([`data/annotated-papers.csv`](data/annotated-papers.csv))
 - **Interactive visualizations** of the papers identified through the mapping process, hosted via GitHub Pages
-
-The taxonomy spans project purpose, audience, context, engagement with more-than-human actors, and engagement with temporalities themselves. It is intended as a shared resource for researchers and designers working at the intersection of more-than-human perspectives and temporal experience.
 
 ## Taxonomy Overview
 
@@ -40,7 +43,24 @@ If you adapt or extend the taxonomy, we ask that you cite the original paper (se
 
 ## Methodology
 
-The taxonomy was developed through a systematic mapping study of design interventions that engage with nonhuman temporalities. Details of the search strategy, inclusion/exclusion criteria, and coding process are described in the paper.
+The taxonomy was developed through a systematic mapping study of design interventions that engage with nonhuman temporalities, combined with a comparative analysis using grounded theory methodology. The final corpus comprises 17 projects from the past ten years.
+
+### Inclusion Criteria
+
+- The work must be situated within either Design or Human-Computer Interaction with an emphasis on design research
+- The work is a full peer-reviewed contribution
+- The work must include a direct and applied design intervention to engage with MtH temporalities
+- The designed interventions must engage with natural MtH in practice
+- The work must engage temporalities either as a focus of inquiry or as a component of the findings/discussion/implications of the work
+
+### Exclusion Criteria
+
+- Non-peer-reviewed or extended abstracts (demonstration, work in progress, etc.)
+- Works focused on artificial or machine-based more-than-human perspectives (e.g. AI, ML, algorithms, etc.)
+- Works with a purely theoretical or conceptual focus
+- Works that engaged with MtH remotely (e.g. online workshops, persona cards, etc.)
+
+Full details of the search strategy and coding process are described in the paper.
 
 ## Interactive Visualizations
 
