@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More-than-Human Temporalities — Interactive Paper Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --clr-bg:      #fafaf9;
+      --clr-surface: #ffffff;
+      --clr-text:    #1c1917;
+      --clr-muted:   #78716c;
+      --clr-accent:  #4f46e5;
+      --clr-border:  #e7e5e4;
+      --font-sans:   'Inter', system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      color: var(--clr-text);
+      background: var(--clr-bg);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header ── */
+    .site-header {
+      background: var(--clr-surface);
+      border-bottom: 1px solid var(--clr-border);
+      padding: 1.5rem 1.5rem 0;
+    }
+
+    .site-header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .site-title {
+      font-weight: 700;
+      font-size: 1.35rem;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.25rem;
+    }
+
+    .site-subtitle {
+      color: var(--clr-muted);
+      font-size: 0.85rem;
+      margin-bottom: 1rem;
+    }
+
+    .site-subtitle a {
+      color: var(--clr-accent);
+      text-decoration: none;
+    }
+
+    .site-subtitle a:hover { text-decoration: underline; }
+
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      gap: 0;
+      border-bottom: none;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--clr-muted);
+      padding: 0.6rem 1rem;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .tab-btn:hover {
+      color: var(--clr-text);
+    }
+
+    .tab-btn.active {
+      color: var(--clr-accent);
+      border-bottom-color: var(--clr-accent);
+    }
+
+    /* ── Content area ── */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .viz-frame {
+      flex: 1;
+      border: none;
+      width: 100%;
+      min-height: calc(100vh - 130px);
+      background: #f7f6f3;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--clr-border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--clr-muted);
+      background: var(--clr-surface);
+    }
+
+    footer a {
+      color: var(--clr-accent);
+      text-decoration: none;
+    }
+
+    footer a:hover { text-decoration: underline; }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      .site-title { font-size: 1.1rem; }
+      .tab-btn { font-size: 0.75rem; padding: 0.5rem 0.65rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header-inner">
+      <h1 class="site-title">More-than-Human Temporalities</h1>
+      <p class="site-subtitle">
+        Interactive paper explorer for
+        <a href="https://doi.org/10.21606/drs.2026.1004">Gouin et al., DRS 2026</a>
+        &middot;
+        <a href="https://github.com/whyresearch/mth-temporalities-taxonomy">GitHub Repo</a>
+      </p>
+      <div class="tabs" role="tablist">
+        <button class="tab-btn active" role="tab" data-src="included.html">Included Papers</button>
+        <button class="tab-btn" role="tab" data-src="comparison.html">Comparison</button>
+        <button class="tab-btn" role="tab" data-src="timeline.html">MtH + Temporalities Pool</button>
+        <button class="tab-btn" role="tab" data-src="papers_more_than_human.html">MtH Literature</button>
+        <button class="tab-btn" role="tab" data-src="papers_temporalities.html">Temporalities Literature</button>
+        <button class="tab-btn" role="tab" data-src="about.html">About</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <iframe class="viz-frame" id="viz-frame" src="included.html" title="Visualization"></iframe>
+  </main>
+
+  <footer>
+    <p>
+      Gouin, M., Byrne, D., Nunes, N. J., &amp; Nisi, V. (2026).
+      <em>Making Time for the More-than-Human.</em> DRS 2026.
+      &middot; <a href="https://doi.org/10.21606/drs.2026.1004">DOI</a>
+      &middot; <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+    </p>
+  </footer>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab-btn');
+    const frame = document.getElementById('viz-frame');
+
+    tabs.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        btn.classList.add('active');
+        frame.src = btn.dataset.src;
+      });
+    });
+  </script>
+
+</body>
+</html>

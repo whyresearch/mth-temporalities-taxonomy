@@ -2,7 +2,7 @@
 
 A taxonomy for describing and categorizing design research that engages with more-than-human temporalities. Developed through a systematic mapping of design interventions exploring nonhuman temporalities across HCI and design research.
 
-**[→ Interactive Paper Explorer](https://TODO.github.io/MtHTemporalityTaxonomy/)** · **[→ Taxonomy](taxonomy.md)** · **[→ Annotated Papers](papers.md)**
+**[→ Interactive Paper Explorer](https://whyresearch.github.io/mth-temporalities-taxonomy/)** · **[→ Taxonomy](taxonomy.md)** · **[→ Annotated Papers](papers.md)**
 
 ---
 
@@ -64,7 +64,7 @@ Full details of the search strategy and coding process are described in the pape
 
 ## Interactive Visualizations
 
-The [GitHub Pages site](https://TODO.github.io/MtHTemporalityTaxonomy/) provides interactive visualizations of:
+The [GitHub Pages site](https://whyresearch.github.io/mth-temporalities-taxonomy/) provides interactive visualizations of:
 
 - **Core papers** — The final set identified through the systematic mapping
 - **MtH sample** — Papers sampled from the more-than-human design literature
