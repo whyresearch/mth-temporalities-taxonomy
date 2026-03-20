@@ -145,3 +145,27 @@ The following tables present the 17 projects in the final corpus, annotated usin
 | 15 | Phenology Probes | Now | Cycles | Screen, Print | Visual | Living with |
 | 16 | Camera Traps | Now | Cycles | Screen | Visual | Noticing |
 | 17 | High Water Pants | Future | Layering | Artifact | Touch | Felt experience |
+
+---
+
+## 6. Reported Challenges
+
+| # | Project | Reported Challenges |
+|---|---------|---------------------|
+| 1 | Tracing matters of scale… | • Minerals often perceived as cold, dead or inert made temporal engagement more difficult. • The success of the walk as a method depends on the design, the facilitation, and the imagination of the walker. |
+| 2 | Everywhere, all at once | N/A |
+| 3 | Leaky Cups | • Challenges in how methods are presented as singular and objective when designing with different temporal ontologies. |
+| 4 | Mold Sounds | • Concerns about the impact of living with moulds over time on the first author’s health and allergies, who reported feelings of fear and anxiety. |
+| 5 | Being The Creek | • Engaging with nonhumans' temporalities generated uncomfortable feelings for participants towards humans and a sense of loss and hopelessness. • Limits of conducting this type of temporal engagement over a single season. |
+| 6 | Bio-Digital Calendar | • Human-SCOBY interdependencies meant the SCOBY's growth rate and life depended on and was influenced by human actions, such as refreshing the culture or adjusting the room temperature. |
+| 7 | Designing with more-than-human temporalities | • The design process was impacted by human time pressure and external concerns, such as financial, logistical, technical, and practical challenges. • The construction had to be negotiated with external factors such as weather and natural rhythms. |
+| 8 | Caring through | • The first author reported feelings of disapointment during their daily visit due to the mycelium operating at a different timescale. • Human language limited the notion of care. |
+| 9 | Designing for Interdependence… | • Pace of building the design habitat was impacted by the weather and seasonal rhythms, and the assembly procedure had to be updated to make sure it was finished on time, and the bees had a place to live • The first author had to align their work with bees’ temporality, sometimes finishing building their habitat after sunset once they were asleep. • Negotiating garden space once the bee house was built proved difficult, as bees are very sensitive to change |
+| 10 | Sensing Bodies | • Plants needs, seasonality, and environmental sensitivity created uncertainty and unpredictatbility regarding their growth and survival. |
+| 11 | Felt Experiences with Kombucha Scoby | • The diverse growth rates of the SCOBY meant not all 10 were ready at the same time, leading the first author to feel frustrated that they didn’t have enough material to complete their class assignment. |
+| 12 | Metamorphonic | • The first author reported that the experience and multispecies engagement became less special for them over time. • Conflicts when aligning on human and insect timelines, where deadlines and human time pressures affected the quality of care and attention. • Ethical concerns about the insect hatching rhythms in a human environment, leading to an increase in insect population and a lack of space. |
+| 13 | Cyano-chromic Interface | • Keeping the more-than-human alive: in the first phase of living with the cyanotype, the authors report that some of the culture died from too much sun exposure. • Engaging with tacit knowledge from other disciplines sometimes means not every step of the processes was described, leading to some challenges in developing the cyano unit. |
+| 14 | Me, the Hill and My Browser | • Using technology to represent temporalities risks calling attention to specific changes while obscuring others. • Tensions with users noticing more ‘the design’ rather than ‘nature’ when engaging with nonhuman temporalities through technological interventions. • ‘Struggles’ of living within multiple cultures of time, feeling ‘torn’ when noticing multiple temporalities • Authors note the potential challenge of translating and adapting autobiographical design, pointing out that recruiting other participants for this type of study might be hard. |
+| 15 | Phenology Probes | N/A |
+| 16 | Camera Traps | • The camera probe was not easy to set up, and participants needed to experiment with different locations, leading to some confusion regarding whether there was nothing to record or if the camera did not work properly. • Most data collection occurred in one season, during which intense wildfires destroyed habitat and killed native animals, impacting the engagement. • Participants experienced difficulty reconciling the conflicting temporalities of natural cycles. • Short research timelines in HCI conflict with nature's longer, cyclical rhythms. • Using only one type of environmental sensor and source of information limited participants' engagement with local nonhumans. |
+| 17 | High Water Pants | N/A |
